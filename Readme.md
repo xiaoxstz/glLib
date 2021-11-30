@@ -6,7 +6,13 @@ OpenGL Library was made and is maintained by Ian Mallett (ian@geometrian.com; se
 
 OpenGL Library is released fully open source with the assumption that it may be reused and redistributed under an honor system.  You may redistribute, alter, etc. the code, just so long as you don't claim total responsibility for creating the library in the first place--because that would be, you know, not true.  See Copying.txt.  
 
-In the unlikely event that glLib contains a software vulnerability or otherwise inadvertently causes harm to your computer, I'm not responsible.  glLib has been designed to remove such problems, and I cannot imagine how such a problem could occur.  However, the user ultimately assumes all risk (however slight, or even nonexistent) of damages.  
+In the unlikely event that glLib contains a software vulnerability or otherwise inadvertently causes harm to your computer, I'm not responsible.  glLib has been designed to remove such problems, and I cannot imagine how such a problem could occur.  However, the user ultimately assumes all risk (however slight, or even nonexistent) of damages.
+
+
+Run the command `python Tutorial.py`, and then you will see the window below. Each button will lead you to a demo.
+
+![image](https://user-images.githubusercontent.com/81862747/143978262-8e3f0354-f899-4113-8f21-2d6c468968a4.png)
+
 
 
 # RESOURCES
