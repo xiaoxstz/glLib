@@ -1,0 +1,148 @@
+check all shaders and/or ask RB
+Test w/o pygame, numpy, pyopengl to make sure properly crashes
+update Shader.use_prebuilt() docs
+.use_prebuilt() error printing and document types
+Kill useless functions
+update depth peel shader list doc
+Caustic map switching between render modes (f) the problem is in generating positionmap and normalmap
+glLibGridDouble, hair
+documentation for the grid functions
+
+admit that the math section exists in one of the tutorials
+
+wx paths for loading objects
+
+add .draw_frustum() method to glLibView*, with arguments for what elements, specifically, to draw.  See Tutorials/shadowmapping.py
+
+change version?
+
+doc glLibGetTimeElements
+
+test glGetTexImage
+
+grid2D in glLibMath
+
+depth peel fbo only should need two fbos
+
+Make functions, classes, etc. reset states after altering them
+
+cubic filtering and my hack need to be finished, and the tutorial needs updating
+
+fbo mipmapping???
+
+document glLibGetProjected note that it returns relative offset with viewport (check that too)
+
+repeated volumetric caustics fails
+
+particle shader variables
+
+names of objects from object names in .obj file?
+
+add fbo.clear() ?
+
+add numbers argument to .save_vertex, .save_fragment?
+
+work on naming conventions so that things like texturing and fireparticle.png don't get screwed up
+
+Cook-Torrence, Lyon, Trowbridge-Reitz, Torrence-Sparrow specular
+anisotropic specular Hedrich-Seidel, Ward
+Oren–Nayar diffuse
+and doc
+
+Remove the rotations garbage from glLibPlane?
+
+PSM http://www.comp.nus.edu.sg/~tants/tsm/psm.html
+
+distance field sm? http://www.gamedev.net/community/forums/topic.asp?topic_id=571102
+
+check theory, line numbers, getinput, variable naming conventions shader error ouputting, globals, variables, all button combinations for all tutorials!
+
+object exporting?
+
+blinn, gaussian, beckmann with point lights?
+
+add loop argument to glLibFilterSurface, glLibHeightmapToNormalmap
+
+compile to .pyo?
+
+Remove useless tokens
+
+Tutorials ought to test for anisotropy, vbos, etc. before using them
+
+Add vertex normals to glLibRectangularSolid and doc
+
+glLibScreenQuad normal for
+
+change variables of all classes to glLibInternal_
+
+Test culling for faces of glLibRectangularSolid
+
+Add option to use ONLY fragment shader, vertex shader?
+
+objects need uv_repeat=1,uv_delta=0, draw_list, draw_vbo, draw_arrays
+
+make glLibUnwrappedCubemap work by updating textures?  Course then we'd have to manually update it
+
+texturing argument in glLibObject is stupid?
+
+remove useless stuff from data/
+
+material class?
+
+add support for a list to dictate minimum and maximum values for filtering= arguments (glLibTexture*, FBO.add_render_target, etc.  search!)
+
+remove tutorials that don't exist on Tutorial.py.  Remove .pyc too!
+
+glLibObject.set_material() should be able to add materials to objects without materials
+
+all objects need a "apply_transformation" method that permanently transforms their data.
+
+cubic____ for everything (cubemapping)
+
+glLibInternal in shaders.  Document the rest
+
+give the object classes the native ability to link with ODE
+
+describe variables available for use in each class in docs
+
+make updating particles/cloth/hair/etc.? not in vertex shader so less geometry need be drawn?
+
+Name the shaders only used internally GLLIB_CLOTH_DISTANCE, etc. with GLLIBINTERNAL
+
+make GLLIB_CLOTH_DISTANCE shader work with repeats
+
+self.vec_tex in glLibCloth unnecessary?
+
+resizable windows?
+
+solve spotlighting ATI and all other bugs in todo
+
+remove the flipcoords argument in the shadowing functions
+
+delete this file
+
+silhouette shadowmapping, distance field
+
+fbo cubemapping
+
+add flip_normals option to glLibExtrudeLightVolumes
+
+metaball tangents
+
+add offset to glLibOutline for nice effects w/o z-fighting
+
+glLibPaths.py documentation and tutorial
+
+space optimizer for meta objects
+
+3D and 1D FBOs, and 1D textures
+
+remove printing of errors of built-in shaders inside classes where they're made and compiled
+
+change order of "window.clear();__.set_view()" to "__.set_view();window.clear()" in all tutorials
+
+remove glLibGetProjectedFrom?
+
+phong specular shows up on the other side of the object from where it should be as well!  
+
+redocument glLibDome!!!
